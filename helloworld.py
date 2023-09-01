@@ -25,5 +25,7 @@ Here is a multiline comment.
             -- Assignment operator assigns left to right. 
             --- name will store the value of the input().
 """
+# Returns users name.
 name = input("What's your name? ")
 print(name)
+

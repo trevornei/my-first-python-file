@@ -26,6 +26,17 @@ Here is a multiline comment.
             --- name will store the value of the input().
 """
 # Returns users name.
+# name = input("What's your name? ")
+# print(name)
+# name = input("What's your name? ")
+# print("hello," + name + "!")
+    # This code has a bug because it needs to format the value of the variable inside the string.
+    # name = input("What's your name? ")
+    # print("Hello, {name} it is nice to meet you :)")
+    
+    # Corrected bug: print(f"String plus{formattedvariable}")
 name = input("What's your name? ")
-print(name)
+print(f"Hello, {name} it is nice to meet you :)")
+
+
 

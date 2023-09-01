@@ -38,5 +38,14 @@ Here is a multiline comment.
 name = input("What's your name? ")
 print(f"Hello, {name} it is nice to meet you :)")
 
+# Functions take arguments
+# Paramaters have a lot of similiarities.
 
-
+# Python docs: docs.python.org
+"""
+    Print(*objects, sep=' ', end='\n', file=None, flush=False)
+    - Takes any number of objects.
+    - Both sep and end must be strings.
+    - They can also be none value.
+    - If no objects are given, print will write none.
+"""

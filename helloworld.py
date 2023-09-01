@@ -35,8 +35,8 @@ Here is a multiline comment.
     # print("Hello, {name} it is nice to meet you :)")
     
     # Corrected bug: print(f"String plus{formattedvariable}")
-name = input("What's your name? ")
-print(f"Hello, {name} it is nice to meet you :)")
+# name = input("What's your name? ")
+# print(f"Hello, {name} it is nice to meet you :)")
 
 # Functions take arguments
 # Paramaters have a lot of similiarities.
@@ -49,3 +49,10 @@ print(f"Hello, {name} it is nice to meet you :)")
     - They can also be none value.
     - If no objects are given, print will write none.
 """
+# end='\n' at the end - creates a new line.
+# sep=' ' creates a new space.
+
+# Now test overriding the default values of sep and end.
+name = input("What's your name? ")
+print("Hello ", sep='', end='')
+print(name)

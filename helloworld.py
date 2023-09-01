@@ -13,9 +13,17 @@ Here is a multiline comment.
 
 # I have commented the above code out because input takes an argument and creates a new line.
 # Refactored code below
-input("What is your name? ")
-print("Hello, Trevor!")
+# input("What is your name? ")
+# print("Hello, Trevor!")
 
 """
     Adding Return Values: 
+    Let's make the code more contextual. 
+        - If the input has a different name than Trevor, we need to be able to respond appropriately.
+        How do we do so?
+            - Variables
+            -- Assignment operator assigns left to right. 
+            --- name will store the value of the input().
 """
+name = input("What's your name? ")
+print(name)

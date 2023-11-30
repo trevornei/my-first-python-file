@@ -57,8 +57,8 @@ https://creativecommons.org/licenses/...
 Timestamp: 45:01
 Ended at: Positional Parameters
 Quick Notes: 
-- There were sublt differences between JS and py when concatenating strings with varible.
-- In JS you need to declare varibles and in python you do not need to declare them becaus py is a dynamically typed language.
+- There were sublte differences between JS and py when concatenating strings with varible.
+- In JS you need to declare varibles and in python you don't.
 
 SN: Sets are not array because they are made for different purposes.
 Lists: are py's version of arrays. You can think of them as general purpose arrays that allow
